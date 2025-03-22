@@ -4,6 +4,7 @@ const atomDirsMap = ['components', 'hooks', 'icons', 'utils'];
 
 export default defineConfig({
   outputPath: 'docs',
+  base: '/first-c/',
   publicPath: '/first-c/',
   resolve: {
     docDirs: ['routes'],
