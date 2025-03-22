@@ -16,16 +16,16 @@
     "dist"
   ],
   "scripts": {
-    "build": "father build",
+    "build": "dumi build",
+    "build:lib": "father build",
     "build:watch": "father dev",
     "dev": "dumi dev",
-    "docs:build": "dumi build",
-    "docs:preview": "dumi preview",
     "doctor": "father doctor",
     "lint": "npm run lint:es && npm run lint:css",
     "lint:es": "eslint \"{src,test}/**/*.{js,jsx,ts,tsx}\"",
     "prepare": "husky install && dumi setup",
     "prepublishOnly": "father doctor && npm run build",
+    "preview": "dumi preview",
     "start": "npm run dev"
   },
   "commitlint": {
