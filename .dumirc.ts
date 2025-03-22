@@ -4,6 +4,7 @@ const atomDirsMap = ['components', 'hooks', 'icons', 'utils'];
 
 export default defineConfig({
   outputPath: 'docs',
+  publicPath: '/first-c/',
   resolve: {
     docDirs: ['routes'],
     atomDirs: atomDirsMap.map((v) => ({
@@ -13,6 +14,6 @@ export default defineConfig({
   },
   themeConfig: {
     name: 'first-c',
-    logo: '/logo.png',
+    logo: '/first-c/logo.png',
   },
 });

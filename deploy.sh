@@ -1,0 +1,1 @@
+pnpm build && git add . && git commit -am 'docs: update' && git push
